@@ -1,0 +1,10 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#title, #content {
+  &.error {
+  -moz-box-shadow: 0 0 3px 3px #F00;
+  -webkit-box-shadow: 0 0 3px 3px #F00;
+  box-shadow: 0 0 3px 3px #F00;
+  }
+}

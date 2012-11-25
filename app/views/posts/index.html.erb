@@ -1,0 +1,7 @@
+<script type="text/javascript">
+	$(function() {
+		Blog.init({
+			posts: <%= @posts.to_json.html_safe %>
+		});
+	});
+</script>

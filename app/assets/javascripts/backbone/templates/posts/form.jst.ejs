@@ -1,0 +1,33 @@
+<div class="span5">
+	<form id="form-post" name="post">
+		<fieldset>
+			<legend>Edit post</legend>
+			<label>Title:</label>
+			<input class="required" type="text" name="title" id="title" value="<%= title %>" >
+			<span class="help-block" id="title-help" style="display:none">You must enter a valid value.</span>
+			<label>Content:</label>
+			<textarea class="required" rows="3" name="content" id="content"><%= content %></textarea>
+			<span class="help-block" id="content-help" style="display:none">You must enter a valid value.</span>
+			<br/>
+			<button type="submit" class="btn">Post It!</button>
+		</fieldset>
+		
+		<!--
+	  <div class="field">
+	    <label for="title"> title:</label>
+	    <input type="text" name="title" id="title" value="<%= title %>" >
+	  </div>
+	
+	  <div class="field">
+	    <label for="content"> content:</label>
+	    <input type="text" name="content" id="content" value="<%= content %>" >
+	  </div>
+	
+	  <div class="actions">
+	    <input type="submit" value="Update Post" />
+	  </div>
+		-->
+	</form>
+	
+	<a href="#">Back</a>
+</div>
